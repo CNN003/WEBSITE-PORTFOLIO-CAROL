@@ -1,0 +1,302 @@
+/*. class selector */
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+header{
+   
+    display: flex;
+    background-color:grey;
+}
+.logo{
+    display: flex;
+}
+.logo img{
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+}
+h1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    padding-left: 5px;
+    padding-top: 0px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 0px;
+    align-items: center;
+    justify-content: center;
+    float: right;
+}
+nav{
+    background-color:grey ;
+    color: white;
+    padding: 20px;
+    text-align: flex;
+    justify-content: space-between;
+    word-spacing: 40px;
+    align-items: flex-end;
+    float: left;
+    font-size: x-large;
+    margin-left: 250px;
+    margin-bottom: 0px;
+    text-decoration: rgb(2, 2, 27);
+
+}  
+
+main{
+    height: 100vh;
+    max-width: 100%;
+    display: flex;
+    
+}
+
+.Image1{
+    display: flex;
+    flex: 1;
+    align-items: left;
+    height: 60vh;
+    padding: 30px ;
+    margin: 5px;
+}
+.Image1 img{
+    height: 80vh;
+    width: 80vh;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+}
+p{
+    display: grid;
+    justify-content: space-around;
+}
+
+.Text{
+    display: flex;
+    text-align: center;
+    flex-direction:row;
+    flex-wrap: wrap;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style:normal;
+    font-size: 15vh;
+    font-weight: bolder;
+    font-stretch: expanded;
+    float: right;
+    color: rgb(25, 25, 87);
+    padding: 5px;
+    margin-top: 30px;
+    align-items: start;
+    justify-content: start;
+    text-align:right;
+
+}
+
+.Text2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap ;
+    text-align: center;
+    font-family:  Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 10vh;
+    font: 1000;
+    font-stretch: expanded;
+    padding-left: 25px;
+    padding-right: 10px;
+    float: right;
+    margin-left: 20px;
+    margin-right: 5px;
+    align-items: start;
+    justify-content: start;
+    float: right;
+    text-align: right;
+}
+.Button{
+    display:flex;
+    align-items: bottom;
+    justify-content: start;
+    margin-top: 600px;
+    margin-left: 80px;
+    height: 30px;
+    width: 50px;
+    padding: 5px;
+    box-shadow: 0 0 10px palevioletred;
+    background-color: rgb(61, 61, 179);
+    font-size: larger;
+    font-weight: 30;
+    text-align: center;
+    cursor: pointer;
+    align-items: baseline;
+}
+h3{
+    display: grid;
+    justify-content: space-between;
+    
+}
+
+#textjs{
+    display: grid;
+    margin-top: 500px;
+    margin-bottom: 100px;
+    margin-left: 20px;
+    justify-content: space-around;
+}
+#changetext{
+    display: grid;
+    height: 4vh;
+    width: 12vh;
+    margin-top: 500px;
+    margin-right: 2PX;
+    text-align: center;
+    justify-content: left;
+    align-items: center;
+    
+}
+form{
+
+    height: auto;
+    display:block;
+    flex-direction: column;
+    padding-left: 20px;
+    align-items:center ;
+    justify-content: center;
+    background-color: rgb(79, 13, 141);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#CONTACT-FORM{
+    display: block;
+    font-size: x-large;
+    margin: 20px;
+    padding-right: 1100px;
+    justify-content: center;
+    align-items: center;
+}
+.Quote{
+    display: flex;
+
+}
+p{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 80px;
+    margin-left: 50px;
+    padding-top: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    font-size: 5vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    
+}
+.Quote img{
+    display: flex;
+    padding-top: 40px;
+    height: 60vh;
+    width: 70vh;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-content: center;
+
+    
+}
+main{
+    display: flex;
+    max-width: 100%;
+    
+    background-image:url(bg\ 3.jpg);
+}
+.about{
+    display: flex;
+    flex-direction: row;
+    text-wrap: wrap;
+    font: 200;
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+    align-items: center;
+    justify-content: center;
+    color: rgb(17, 17, 99);
+}
+*{
+    box-sizing: content-box;
+    
+}
+#gmail{
+    background-color:rgb(160, 126, 132);
+    height: 75%;
+    width:85%;
+}
+.reach{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 50px;
+    margin: 50px;
+    font-size: 5vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: brown;
+}
+
+hr{
+    max-width: 100%;
+    font-weight: bolder;
+    align-items: center;
+    padding-left: 20px;
+    
+}
+.gmail{
+    display: flex;
+    font-size: 5vh;
+    padding: 50px;
+    color: blueviolet;
+}
+
+
+@media  only screen and (min-width:540px){
+     body  {
+    font-size: 20px;
+  }
+} 
+.Image2{
+    display: flex;
+}   
+.Image2 img{
+    
+    max-width: 100%;
+    height: auto;
+}   
